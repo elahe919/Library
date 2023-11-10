@@ -4,7 +4,7 @@ function Layout({children}) {
     return (
         <>
             <header className={styles.header}>
-                <p>welcome to my library 📚</p>
+                <p>Book App</p>
             </header>
             {children}
             <footer className={styles.footer}>made with 🧡</footer>
