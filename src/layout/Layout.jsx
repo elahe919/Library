@@ -1,9 +1,13 @@
 function Layout({children}) {
     return (
         <>
-            <header>header</header>
+            <header>
+                <p>welcome to my library 📚</p>
+            </header>
             {children}
-            <footer>footer</footer>
+            <footer>made with 🧡</footer>
         </>
     )
 }
+
+export default Layout
