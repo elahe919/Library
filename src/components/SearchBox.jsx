@@ -1,11 +1,12 @@
 import React from 'react'
 import {AiOutlineSearch} from "react-icons/ai"
+import styles from "./SearchBox.module.css";
 
-function SearchBox( search , setSearch , searchHandler) {
+function SearchBox( {value , onChange , onClick}) {
   return (
-    <div>
-        <input type='text' placeholder='Search title' value={search} onChange={ (e) => setSearch(e.target.value.toLowerCase()) }/>
-        <button onClick={searchHandler}>
+    <div className={styles.searchDiv}>
+        <input type='text' placeholder='Search title' value={value} onChange={onChange}/>
+        <button onClick={onClick}>
         
         <AiOutlineSearch />
         

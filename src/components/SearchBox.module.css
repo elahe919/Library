@@ -1,0 +1,29 @@
+.searchDiv {
+    position: relative;
+    padding: 10px;
+  }
+  
+  .searchDiv input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    width: 100%; 
+  }
+  
+  .searchDiv button {
+    position: absolute; 
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-49%); 
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: #6552F4;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  

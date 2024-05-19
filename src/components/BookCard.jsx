@@ -9,7 +9,7 @@ function BookCard({ data ,  handleLikedList}) {
   
   const [like , setLike] = useState(false)
   const likeHandler = () => {
-    setLike((like => !like));
+    setLike(like => !like);
     
   }
 
